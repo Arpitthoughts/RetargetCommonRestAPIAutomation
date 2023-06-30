@@ -16,7 +16,7 @@ public class AirlineTests extends AirlineAPIs{
         System.out.println(System.getProperty("env"));
 
 
-Map<String,Object> requestPayload=Payloads.getCreateAirlinePayloadFromMap("637392","British Lankan Airways","UK",
+Map<String,Object> requestPayload=Payloads.getCreateAirlinePayloadFromMap("90890","British Lankan Airways","UK",
         "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","from UK",
         "London UK", "www.british airways.com","1997");
 
